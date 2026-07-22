@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #
 # Gradle start up script for UN*X
 #
@@ -25,7 +25,7 @@ APP_NAME="Gradle"
 APP_BASE_NAME=`basename "$0"`
 
 # Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
-DEFAULT_JVM_OPTS='"-Xmx64m" "-Xms64m"'
+DEFAULT_JVM_OPTS='-Xmx64m -Xms64m'
 
 # Use the maximum available, or set MAX_FD != -1 to use that value.
 MAX_FD="maximum"
@@ -117,19 +117,9 @@ if $msys ; then
     JAVACMD=`cygpath --unix "$JAVACMD"`
 fi
 
-# Split up the JVM_OPTS And GRADLE_OPTS values into an array
-JVM_OPTS=()
-eval set -- $DEFAULT_JVM_OPTS $JAVA_OPTS $GRADLE_OPTS
-while [ $# -gt 0 ] ; do
-    case "$1" in
-        -D*|-X*) JVM_OPTS[${#JVM_OPTS[@]}]="$1" ;;
-        *) break ;;
-    esac
-    shift
-done
-
 # Collect all arguments for the java command
-JAVA_ARGS=("${JVM_OPTS[@]}" -classpath "$CLASSPATH" org.gradle.wrapper.GradleWrapperMain "$@")
+# Use POSIX-compliant approach instead of bash arrays
+set -- $DEFAULT_JVM_OPTS $JAVA_OPTS $GRADLE_OPTS "-Dorg.gradle.appname=$APP_BASE_NAME" -classpath "$CLASSPATH" org.gradle.wrapper.GradleWrapperMain "$@"
 
 # Execute the java command
-exec "$JAVACMD" "${JAVA_ARGS[@]}"
+exec "$JAVACMD" "$@"
