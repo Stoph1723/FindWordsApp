@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "name": "Animals",
+    "theme": "animals",
+    "wordLists": [
+      ["LION", "TIGER", "BEAR", "WOLF", "FOX", "DEER", "HARE", "MOLE"],
+      ["ELEPHANT", "GIRAFFE", "ZEBRA", "RHINO", "HIPPO", "HYENA", "CHEETAH", "LEOPARD"],
+      ["MONKEY", "GORILLA", "CHIMP", "ORANGUTAN", "BABOON", "MACAQUE", "LEMUR", "TAMARIN"],
+      ["PENGUIN", "DOLPHIN", "WHALE", "SHARK", "SEAL", "OTTER", "WALRUS", "MANATEE"],
+      ["EAGLE", "HAWK", "OWL", "FALCON", "VULTURE", "CONDO", "ROBIN", "SPARROW"],
+      ["SNAKE", "PYTHON", "COBRA", "VIPER", "MAMBA", "BOA", "ADDER", "RAcer"],
+      ["FROG", "TOAD", "NEWT", "SALAMANDER", "AXOLOTL", "CAECILIAN", "TREEFROG", "BULLFROG"],
+      ["BUTTERFLY", "MOTH", "BEETLE", "ANT", "BEE", "WASP", "DRAGONFLY", "LADYBUG"],
+      ["SQUID", "OCTOPUS", "CRAB", "LOBSTER", "SHRIMP", "BARNACLE", "MUSSEL", "CLAM"],
+      ["KOALA", "KANGAROO", "WOMBAT", "WALLABY", "POSSUM", "BANDICOOT", "QUOKKA", "NUMBAT"]
+    ],
+    "gridSize": 10,
+    "difficulty": 1
+  },
+  {
+    "id": 2,
+    "name": "Food & Drink",
+    "theme": "food",
+    "wordLists": [
+      ["PIZZA", "BURGER", "PASTA", "SUSHI", "TACO", "SALAD", "STEAK", "RICE"],
+      ["BREAD", "CHEESE", "BUTTER", "MILK", "EGGS", "YOGURT", "CREAM", "HONEY"],
+      ["APPLE", "BANANA", "ORANGE", "GRAPE", "MANGO", "PEACH", "PEAR", "PLUM"],
+      ["CARROT", "POTATO", "ONION", "TOMATO", "PEPPER", "BROCCOLI", "SPINACH", "CORN"],
+      ["CHICKEN", "BEEF", "PORK", "LAMB", "TURKEY", "DUCK", "HAM", "BACON"],
+      ["COFFEE", "TEA", "JUICE", "WATER", "SODA", "WINE", "BEER", "MILK"],
+      ["CAKE", "PIE", "COOKIE", "BROWNIE", "CANDY", "CHOCOLATE", "ICE CREAM", "PUDDING"],
+      ["SOUP", "STEW", "CURRY", "CHILI", "RAMEN", "PHO", "BISQUE", "GAZPACHO"],
+      ["SANDWICH", "WRAP", "BAGEL", "TOAST", "PANINI", "BURRITO", "QUESADILLA", "KEBAB"],
+      ["SPICE", "SALT", "PEPPER", "GARLIC", "GINGER", "BASIL", "OREGANO", "THYME"]
+    ],
+    "gridSize": 10,
+    "difficulty": 2
+  },
+  {
+    "id": 3,
+    "name": "Countries",
+    "theme": "geography",
+    "wordLists": [
+      ["USA", "CANADA", "MEXICO", "BRAZIL", "ARGENTINA", "CHILE", "PERU", "COLOMBIA"],
+      ["FRANCE", "GERMANY", "ITALY", "SPAIN", "PORTUGAL", "GREECE", "POLAND", "SWEDEN"],
+      ["CHINA", "JAPAN", "KOREA", "INDIA", "THAILAND", "VIETNAM", "INDONESIA", "MALAYSIA"],
+      ["AUSTRALIA", "NEWZEALAND", "FIJI", "SAMOA", "TONGA", "PALAU", "NAURU", "TUVALU"],
+      ["EGYPT", "KENYA", "NIGERIA", "GHANA", "MOROCCO", "TUNISIA", "ALGERIA", "LIBYA"],
+      ["RUSSIA", "UKRAINE", "BELARUS", "MOLDOVA", "LITHUANIA", "LATVIA", "ESTONIA", "GEORGIA"],
+      ["TURKEY", "IRAN", "IRAQ", "SYRIA", "JORDAN", "LEBANON", "ISRAEL", "YEMEN"],
+      ["UK", "IRELAND", "ICELAND", "NORWAY", "DENMARK", "FINLAND", "NETHERLANDS", "BELGIUM"],
+      ["SOUTHAFRICA", "ZIMBABWE", "BOTSWANA", "NAMIBIA", "ZAMBIA", "MALAWI", "MOZAMBIQUE", "ANGOLA"],
+      ["ARGENTINA", "CHILE", "URUGUAY", "PARAGUAY", "BOLIVIA", "ECUADOR", "VENEZUELA", "GUYANA"]
+    ],
+    "gridSize": 12,
+    "difficulty": 2
+  },
+  {
+    "id": 4,
+    "name": "Sports",
+    "theme": "sports",
+    "wordLists": [
+      ["FOOTBALL", "SOCCER", "BASKETBALL", "BASEBALL", "TENNIS", "GOLF", "HOCKEY", "RUGBY"],
+      ["SWIMMING", "RUNNING", "CYCLING", "BOXING", "WRESTLING", "KARATE", "JUDO", "TAEKWONDO"],
+      ["SKIING", "SNOWBOARD", "SKATING", "CURLING", "BIATHLON", "LUGE", "SKELETON", "BOBSLEIGH"],
+      ["VOLLEYBALL", "BADMINTON", "SQUASH", "TABLETENNIS", "PICKLEBALL", "HANDBALL", "NETBALL", "LACROSSE"],
+      ["SURFING", "DIVING", "SAILING", "ROWING", "CANOEING", "KAYAKING", "WINDSURF", "KITESURF"],
+      ["GYMNASTICS", "YOGA", "PILATES", "CROSSFIT", "CALISTHENICS", "BODYBUILDING", "POWERLIFTING", "STRONGMAN"],
+      ["ARCHERY", "SHOOTING", "FENCING", "EQUESTRIAN", "POLO", "CROQUET", "BOCCE", "PETANQUE"],
+      ["MARATHON", "TRIATHLON", "IRONMAN", "ULTRAMARATHON", "SPRINT", "HURDLES", "RELAY", "DECATHLON"],
+      ["CRICKET", "SOFTBALL", "ROUNDERS", "KICKBALL", "DODGEBALL", "TETHERBALL", "FOURSQUARE", "HOPSCOTCH"],
+      ["ESPORT", "GAMING", "CHESS", "POKER", "BRIDGE", "GO", "SHOGI", "MAHJONG"]
+    ],
+    "gridSize": 11,
+    "difficulty": 2
+  },
+  {
+    "id": 5,
+    "name": "Science & Tech",
+    "theme": "science",
+    "wordLists": [
+      ["PHYSICS", "CHEMISTRY", "BIOLOGY", "ASTRONOMY", "GEOLOGY", "ECOLOGY", "GENETICS", "BOTANY"],
+      ["ATOM", "MOLECULE", "ELEMENT", "COMPOUND", "REACTION", "CATALYST", "ISOTOPE", "ION"],
+      ["GRAVITY", "MAGNETISM", "ELECTRICITY", "LIGHT", "SOUND", "HEAT", "ENERGY", "FORCE"],
+      ["COMPUTER", "SOFTWARE", "HARDWARE", "ALGORITHM", "DATABASE", "NETWORK", "CYBERSECURITY", "AI"],
+      ["ROBOT", "DRONE", "SATELLITE", "ROCKET", "TELESCOPE", "MICROSCOPE", "LASER", "RADAR"],
+      ["DNA", "RNA", "GENE", "CHROMOSOME", "PROTEIN", "ENZYME", "CELL", "ORGANISM"],
+      ["PLANET", "STAR", "GALAXY", "NEBULA", "BLACKHOLE", "COMET", "ASTEROID", "METEOR"],
+      ["VOLT", "AMPERE", "OHM", "WATT", "JOULE", "NEWTON", "PASCAL", "KELVIN"],
+      ["PYTHON", "JAVA", "JAVASCRIPT", "RUST", "GO", "SWIFT", "KOTLIN", "TYPESCRIPT"],
+      ["QUANTUM", "RELATIVITY", "THERMODYNAMICS", "MECHANICS", "OPTICS", "ACOUSTICS", "NUCLEAR", "PARTICLE"]
+    ],
+    "gridSize": 12,
+    "difficulty": 3
+  }
+]

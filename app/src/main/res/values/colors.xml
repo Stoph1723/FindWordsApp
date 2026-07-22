@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#6750A4</color>
+    <color name="primaryVariant">#4F378B</color>
+    <color name="onPrimary">#FFFFFF</color>
+    <color name="secondary">#03DAC6</color>
+    <color name="secondaryVariant">#018786</color>
+    <color name="onSecondary">#000000</color>
+    <color name="background">#FEFBFF</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="onSurface">#1C1B1F</color>
+    <color name="error">#B00020</color>
+    <color name="onError">#FFFFFF</color>
+
+    <color name="found_word">#4CAF50</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#757575</color>
+    <color name="light_gray">#E0E0E0</color>
+</resources>

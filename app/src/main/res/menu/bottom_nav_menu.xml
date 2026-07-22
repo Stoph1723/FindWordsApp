@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_packs"
+        android:icon="@drawable/ic_packs"
+        android:title="@string/packs"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_daily"
+        android:icon="@drawable/ic_daily"
+        android:title="@string/daily_challenge"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/settings"
+        app:showAsAction="ifRoom" />
+
+</menu>
